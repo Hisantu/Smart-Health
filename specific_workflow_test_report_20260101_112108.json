@@ -1,0 +1,129 @@
+{
+  "test_execution_time": "2026-01-01T11:21:08.787743",
+  "website_url": "https://smart-health-1-nmts.onrender.com",
+  "test_data": {
+    "patient_phone": "8951659518",
+    "staff_credentials": {
+      "username": "receptionist",
+      "password": "recep123"
+    },
+    "department": "Cardiology",
+    "doctor": "Dr. Sarah Johnson",
+    "counter": "Counter 1"
+  },
+  "generated_token": null,
+  "total_tests": 18,
+  "passed_tests": 4,
+  "failed_tests": 10,
+  "success_rate": "22.2%",
+  "test_results": [
+    {
+      "test": "Patient Login",
+      "status": "PASS",
+      "details": "Logged in with phone: 8951659518",
+      "time": "11:19:49"
+    },
+    {
+      "test": "Token Department Selection",
+      "status": "FAIL",
+      "details": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff62d7588e5\n\t0x7ff62d758940\n\t0x7ff62d53165d\n\t0x7ff62d589a33\n\t0x7ff62d589d3c\n\t0x7ff62d5ddf67\n\t0x7ff62d5dac97\n\t0x7ff62d57ac29\n\t0x7ff62d57ba93\n\t0x7ff62da70640\n\t0x7ff62da6af80\n\t0x7ff62da896e6\n\t0x7ff62d775de4\n\t0x7ff62d77ed8c\n\t0x7ff62d762004\n\t0x7ff62d7621b5\n\t0x7ff62d747ee2\n\t0x7ffad915e8d7\n\t0x7ffada58c53c\n",
+      "time": "11:20:12"
+    },
+    {
+      "test": "Token Generation",
+      "status": "FAIL",
+      "details": "No token or success message found",
+      "time": "11:20:18"
+    },
+    {
+      "test": "Appointment Patient Selection",
+      "status": "INFO",
+      "details": "Patient auto-selected",
+      "time": "11:20:21"
+    },
+    {
+      "test": "Appointment Department",
+      "status": "PASS",
+      "details": "Selected Cardiology",
+      "time": "11:20:23"
+    },
+    {
+      "test": "Doctor Selection",
+      "status": "FAIL",
+      "details": "Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//select[option[contains(text(), 'Dr.') or contains(text(), 'doctor')]]\"}\n  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff62d7588e5\n\t0x7ff62d758940\n\t0x7ff62d53165d\n\t0x7ff62d589a33\n\t0x7ff62d589d3c\n\t0x7ff62d5ddf67\n\t0x7ff62d5dac97\n\t0x7ff62d57ac29\n\t0x7ff62d57ba93\n\t0x7ff62da70640\n\t0x7ff62da6af80\n\t0x7ff62da896e6\n\t0x7ff62d775de4\n\t0x7ff62d77ed8c\n\t0x7ff62d762004\n\t0x7ff62d7621b5\n\t0x7ff62d747ee2\n\t0x7ffad915e8d7\n\t0x7ffada58c53c\n",
+      "time": "11:20:23"
+    },
+    {
+      "test": "Appointment Date",
+      "status": "FAIL",
+      "details": "Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@type='date']\"}\n  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff62d7588e5\n\t0x7ff62d758940\n\t0x7ff62d53165d\n\t0x7ff62d589a33\n\t0x7ff62d589d3c\n\t0x7ff62d5ddf67\n\t0x7ff62d5dac97\n\t0x7ff62d57ac29\n\t0x7ff62d57ba93\n\t0x7ff62da70640\n\t0x7ff62da6af80\n\t0x7ff62da896e6\n\t0x7ff62d775de4\n\t0x7ff62d77ed8c\n\t0x7ff62d762004\n\t0x7ff62d7621b5\n\t0x7ff62d747ee2\n\t0x7ffad915e8d7\n\t0x7ffada58c53c\n",
+      "time": "11:20:23"
+    },
+    {
+      "test": "Time Slot",
+      "status": "FAIL",
+      "details": "Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//select[option[contains(text(), 'AM') or contains(text(), 'PM')]]\"}\n  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff62d7588e5\n\t0x7ff62d758940\n\t0x7ff62d53165d\n\t0x7ff62d589a33\n\t0x7ff62d589d3c\n\t0x7ff62d5ddf67\n\t0x7ff62d5dac97\n\t0x7ff62d57ac29\n\t0x7ff62d57ba93\n\t0x7ff62da70640\n\t0x7ff62da6af80\n\t0x7ff62da896e6\n\t0x7ff62d775de4\n\t0x7ff62d77ed8c\n\t0x7ff62d762004\n\t0x7ff62d7621b5\n\t0x7ff62d747ee2\n\t0x7ffad915e8d7\n\t0x7ffada58c53c\n",
+      "time": "11:20:23"
+    },
+    {
+      "test": "Appointment Reason",
+      "status": "FAIL",
+      "details": "Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//textarea\"}\n  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff62d7588e5\n\t0x7ff62d758940\n\t0x7ff62d53165d\n\t0x7ff62d589a33\n\t0x7ff62d589d3c\n\t0x7ff62d5ddf67\n\t0x7ff62d5dac97\n\t0x7ff62d57ac29\n\t0x7ff62d57ba93\n\t0x7ff62da70640\n\t0x7ff62da6af80\n\t0x7ff62da896e6\n\t0x7ff62d775de4\n\t0x7ff62d77ed8c\n\t0x7ff62d762004\n\t0x7ff62d7621b5\n\t0x7ff62d747ee2\n\t0x7ffad915e8d7\n\t0x7ffada58c53c\n",
+      "time": "11:20:23"
+    },
+    {
+      "test": "Appointment Booking",
+      "status": "FAIL",
+      "details": "Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(), 'Book')]\"}\n  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff62d7588e5\n\t0x7ff62d758940\n\t0x7ff62d53165d\n\t0x7ff62d589a33\n\t0x7ff62d589d3c\n\t0x7ff62d5ddf67\n\t0x7ff62d5dac97\n\t0x7ff62d57ac29\n\t0x7ff62d57ba93\n\t0x7ff62da70640\n\t0x7ff62da6af80\n\t0x7ff62da896e6\n\t0x7ff62d775de4\n\t0x7ff62d77ed8c\n\t0x7ff62d762004\n\t0x7ff62d7621b5\n\t0x7ff62d747ee2\n\t0x7ffad915e8d7\n\t0x7ffada58c53c\n",
+      "time": "11:20:23"
+    },
+    {
+      "test": "Patient Logout",
+      "status": "PASS",
+      "details": "Logged out successfully",
+      "time": "11:20:25"
+    },
+    {
+      "test": "Staff Login",
+      "status": "PASS",
+      "details": "Logged in as receptionist",
+      "time": "11:20:40"
+    },
+    {
+      "test": "Queue Department Selection",
+      "status": "FAIL",
+      "details": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff62d7588e5\n\t0x7ff62d758940\n\t0x7ff62d53165d\n\t0x7ff62d589a33\n\t0x7ff62d589d3c\n\t0x7ff62d5ddf67\n\t0x7ff62d5dac97\n\t0x7ff62d57ac29\n\t0x7ff62d57ba93\n\t0x7ff62da70640\n\t0x7ff62da6af80\n\t0x7ff62da896e6\n\t0x7ff62d775de4\n\t0x7ff62d77ed8c\n\t0x7ff62d762004\n\t0x7ff62d7621b5\n\t0x7ff62d747ee2\n\t0x7ffad915e8d7\n\t0x7ffada58c53c\n",
+      "time": "11:21:05"
+    },
+    {
+      "test": "Counter Assignment",
+      "status": "FAIL",
+      "details": "Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[contains(@placeholder, 'Counter') or @value='Counter 1']\"}\n  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff62d7588e5\n\t0x7ff62d758940\n\t0x7ff62d53165d\n\t0x7ff62d589a33\n\t0x7ff62d589d3c\n\t0x7ff62d5ddf67\n\t0x7ff62d5dac97\n\t0x7ff62d57ac29\n\t0x7ff62d57ba93\n\t0x7ff62da70640\n\t0x7ff62da6af80\n\t0x7ff62da896e6\n\t0x7ff62d775de4\n\t0x7ff62d77ed8c\n\t0x7ff62d762004\n\t0x7ff62d7621b5\n\t0x7ff62d747ee2\n\t0x7ffad915e8d7\n\t0x7ffada58c53c\n",
+      "time": "11:21:05"
+    },
+    {
+      "test": "Queue Doctor Selection",
+      "status": "INFO",
+      "details": "Doctor selection not available or auto-assigned",
+      "time": "11:21:05"
+    },
+    {
+      "test": "Active Status",
+      "status": "FAIL",
+      "details": "Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@type='checkbox']\"}\n  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff62d7588e5\n\t0x7ff62d758940\n\t0x7ff62d53165d\n\t0x7ff62d589a33\n\t0x7ff62d589d3c\n\t0x7ff62d5ddf67\n\t0x7ff62d5dac97\n\t0x7ff62d57ac29\n\t0x7ff62d57ba93\n\t0x7ff62da70640\n\t0x7ff62da6af80\n\t0x7ff62da896e6\n\t0x7ff62d775de4\n\t0x7ff62d77ed8c\n\t0x7ff62d762004\n\t0x7ff62d7621b5\n\t0x7ff62d747ee2\n\t0x7ffad915e8d7\n\t0x7ffada58c53c\n",
+      "time": "11:21:05"
+    },
+    {
+      "test": "Patient Verification",
+      "status": "INFO",
+      "details": "Patient not visible in current queue view",
+      "time": "11:21:08"
+    },
+    {
+      "test": "Queue Call Operation",
+      "status": "INFO",
+      "details": "No tokens available to call",
+      "time": "11:21:08"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "test_execution_time": "2026-01-01T10:27:13.978696",
+  "website_url": "https://smart-health-1-nmts.onrender.com",
+  "total_tests": 9,
+  "passed_tests": 6,
+  "failed_tests": 3,
+  "success_rate": "66.7%",
+  "test_results": [
+    {
+      "test": "Staff Login",
+      "status": "PASS",
+      "details": "Logged in as receptionist",
+      "time": "10:26:15"
+    },
+    {
+      "test": "Patient Selection",
+      "status": "FAIL",
+      "details": "Patient dropdown error: Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff62d7588e5\n\t0x7ff62d758940\n\t0x7ff62d53165d\n\t0x7ff62d589a33\n\t0x7ff62d589d3c\n\t0x7ff62d5ddf67\n\t0x7ff62d5dac97\n\t0x7ff62d57ac29\n\t0x7ff62d57ba93\n\t0x7ff62da70640\n\t0x7ff62da6af80\n\t0x7ff62da896e6\n\t0x7ff62d775de4\n\t0x7ff62d77ed8c\n\t0x7ff62d762004\n\t0x7ff62d7621b5\n\t0x7ff62d747ee2\n\t0x7ffad915e8d7\n\t0x7ffada58c53c\n",
+      "time": "10:26:38"
+    },
+    {
+      "test": "Appointment Patient Selection",
+      "status": "PASS",
+      "details": "Selected existing patient",
+      "time": "10:26:42"
+    },
+    {
+      "test": "Appointment Department Selection",
+      "status": "PASS",
+      "details": "Selected Cardiology",
+      "time": "10:26:44"
+    },
+    {
+      "test": "Appointment Date",
+      "status": "PASS",
+      "details": "Set date to 2026-01-02",
+      "time": "10:26:44"
+    },
+    {
+      "test": "Time Slot Selection",
+      "status": "PASS",
+      "details": "Selected time slot",
+      "time": "10:26:44"
+    },
+    {
+      "test": "Appointment Reason",
+      "status": "PASS",
+      "details": "Added reason",
+      "time": "10:26:45"
+    },
+    {
+      "test": "Appointment Booking",
+      "status": "FAIL",
+      "details": "No success confirmation found",
+      "time": "10:26:50"
+    },
+    {
+      "test": "Patient Login",
+      "status": "FAIL",
+      "details": "Message: \nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff62d7588e5\n\t0x7ff62d758940\n\t0x7ff62d53165d\n\t0x7ff62d589a33\n\t0x7ff62d589d3c\n\t0x7ff62d5ddf67\n\t0x7ff62d5dac97\n\t0x7ff62d57ac29\n\t0x7ff62d57ba93\n\t0x7ff62da70640\n\t0x7ff62da6af80\n\t0x7ff62da896e6\n\t0x7ff62d775de4\n\t0x7ff62d77ed8c\n\t0x7ff62d762004\n\t0x7ff62d7621b5\n\t0x7ff62d747ee2\n\t0x7ffad915e8d7\n\t0x7ffada58c53c\n",
+      "time": "10:27:13"
+    }
+  ]
+}

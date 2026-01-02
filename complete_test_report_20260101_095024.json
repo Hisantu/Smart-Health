@@ -1,0 +1,54 @@
+{
+  "test_execution_time": "2026-01-01T09:50:24.350626",
+  "website_url": "https://smart-health-1-nmts.onrender.com",
+  "total_tests": 7,
+  "passed_tests": 1,
+  "failed_tests": 5,
+  "success_rate": "14.3%",
+  "registered_patients": 0,
+  "generated_tokens": 0,
+  "test_results": [
+    {
+      "test": "Staff Login",
+      "status": "PASS",
+      "details": "Logged in as admin",
+      "time": "09:50:01"
+    },
+    {
+      "test": "Patient Registration",
+      "status": "FAIL",
+      "details": "Patient 1: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Full Name' or @placeholder='Name' or contains(@placeholder, 'name')]\"}\n  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff62d7588e5\n\t0x7ff62d758940\n\t0x7ff62d53165d\n\t0x7ff62d589a33\n\t0x7ff62d589d3c\n\t0x7ff62d5ddf67\n\t0x7ff62d5dac97\n\t0x7ff62d57ac29\n\t0x7ff62d57ba93\n\t0x7ff62da70640\n\t0x7ff62da6af80\n\t0x7ff62da896e6\n\t0x7ff62d775de4\n\t0x7ff62d77ed8c\n\t0x7ff62d762004\n\t0x7ff62d7621b5\n\t0x7ff62d747ee2\n\t0x7ffad915e8d7\n\t0x7ffada58c53c\n",
+      "time": "09:50:04"
+    },
+    {
+      "test": "Patient Registration",
+      "status": "FAIL",
+      "details": "Patient 2: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Full Name' or @placeholder='Name' or contains(@placeholder, 'name')]\"}\n  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff62d7588e5\n\t0x7ff62d758940\n\t0x7ff62d53165d\n\t0x7ff62d589a33\n\t0x7ff62d589d3c\n\t0x7ff62d5ddf67\n\t0x7ff62d5dac97\n\t0x7ff62d57ac29\n\t0x7ff62d57ba93\n\t0x7ff62da70640\n\t0x7ff62da6af80\n\t0x7ff62da896e6\n\t0x7ff62d775de4\n\t0x7ff62d77ed8c\n\t0x7ff62d762004\n\t0x7ff62d7621b5\n\t0x7ff62d747ee2\n\t0x7ffad915e8d7\n\t0x7ffada58c53c\n",
+      "time": "09:50:06"
+    },
+    {
+      "test": "Patient Registration",
+      "status": "FAIL",
+      "details": "Patient 3: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@placeholder='Full Name' or @placeholder='Name' or contains(@placeholder, 'name')]\"}\n  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff62d7588e5\n\t0x7ff62d758940\n\t0x7ff62d53165d\n\t0x7ff62d589a33\n\t0x7ff62d589d3c\n\t0x7ff62d5ddf67\n\t0x7ff62d5dac97\n\t0x7ff62d57ac29\n\t0x7ff62d57ba93\n\t0x7ff62da70640\n\t0x7ff62da6af80\n\t0x7ff62da896e6\n\t0x7ff62d775de4\n\t0x7ff62d77ed8c\n\t0x7ff62d762004\n\t0x7ff62d7621b5\n\t0x7ff62d747ee2\n\t0x7ffad915e8d7\n\t0x7ffada58c53c\n",
+      "time": "09:50:08"
+    },
+    {
+      "test": "Queue Management - Call",
+      "status": "INFO",
+      "details": "No tokens to call",
+      "time": "09:50:09"
+    },
+    {
+      "test": "Display Board",
+      "status": "FAIL",
+      "details": "Could not access display board",
+      "time": "09:50:21"
+    },
+    {
+      "test": "Patient Login",
+      "status": "FAIL",
+      "details": "Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(), 'Patient')]\"}\n  (Session info: chrome=143.0.7499.170); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff62d7588e5\n\t0x7ff62d758940\n\t0x7ff62d53165d\n\t0x7ff62d589a33\n\t0x7ff62d589d3c\n\t0x7ff62d5ddf67\n\t0x7ff62d5dac97\n\t0x7ff62d57ac29\n\t0x7ff62d57ba93\n\t0x7ff62da70640\n\t0x7ff62da6af80\n\t0x7ff62da896e6\n\t0x7ff62d775de4\n\t0x7ff62d77ed8c\n\t0x7ff62d762004\n\t0x7ff62d7621b5\n\t0x7ff62d747ee2\n\t0x7ffad915e8d7\n\t0x7ffada58c53c\n",
+      "time": "09:50:24"
+    }
+  ]
+}

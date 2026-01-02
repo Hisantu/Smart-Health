@@ -1,0 +1,31 @@
+services:
+  # Backend Service
+  - type: web
+    name: smart-health-backend
+    env: node
+    plan: free
+    buildCommand: cd smart_health/server && npm install
+    startCommand: cd smart_health/server && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      # IMPORTANT: Add MONGO_URL manually in Render Dashboard with your MongoDB Atlas connection string
+      # Format: mongodb+srv://username:password@cluster.mongodb.net/smarthealth?retryWrites=true&w=majority
+      - key: JWT_SECRET
+        generateValue: true
+
+  # Frontend Service  
+  - type: web
+    name: smart-health-frontend
+    env: static
+    plan: free
+    buildCommand: cd smart_health/web && npm install && npm run build
+    staticPublishPath: smart_health/web/dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://smart-health-backend.onrender.com/api
+
+# Note: Using MongoDB Atlas instead of Render's database
+# Set MONGO_URL environment variable in Render Dashboard with your MongoDB Atlas connection string
