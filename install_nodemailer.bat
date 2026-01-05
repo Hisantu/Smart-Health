@@ -1,0 +1,1 @@
+@echo off\necho Installing nodemailer package...\ncd /d \"d:\\smart_health\\smart_health\\smart_health\\server\"\nnpm install nodemailer\necho Nodemailer installed successfully!\npause
